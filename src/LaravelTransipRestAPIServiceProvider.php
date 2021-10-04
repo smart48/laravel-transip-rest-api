@@ -2,9 +2,9 @@
 
 namespace Smart48\LaravelTransipRestAPI;
 
+use Smart48\LaravelTransipRestAPI\Commands\LaravelTransipRestAPICommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Smart48\LaravelTransipRestAPI\Commands\LaravelTransipRestAPICommand;
 
 class LaravelTransipRestAPIServiceProvider extends PackageServiceProvider
 {
