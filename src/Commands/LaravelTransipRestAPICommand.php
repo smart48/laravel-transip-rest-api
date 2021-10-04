@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Smart48\LaravelTransipRestAPI\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelTransipRestAPICommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-transip-rest-api';
 
     public $description = 'My command';
 

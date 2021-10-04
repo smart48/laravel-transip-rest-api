@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "smart48/laravel-transip-rest-api",
+    "description": "Smart48 Laravel Transip REST API Package",
     "keywords": [
-        ":vendor_name",
+        "smart48",
         "laravel",
-        ":package_slug"
+        "laravel-transip-rest-api"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/smart48/laravel-transip-rest-api",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Jasper Frumau",
+            "email": "support@smart48.com",
             "role": "Developer"
         }
     ],
@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Smart48\\LaravelTransipRestAPI\\": "src",
+            "Smart48\\LaravelTransipRestAPI\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Smart48\\LaravelTransipRestAPI\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -49,10 +49,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Smart48\\LaravelTransipRestAPI\\LaravelTransipRestAPIServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "LaravelTransipRestAPI": "Smart48\\LaravelTransipRestAPI\\LaravelTransipRestAPIFacade"
             }
         }
     },

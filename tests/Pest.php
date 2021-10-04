@@ -1,5 +1,5 @@
 <?php
 
-use VendorName\Skeleton\Tests\TestCase;
+use Smart48\LaravelTransipRestAPI\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);
